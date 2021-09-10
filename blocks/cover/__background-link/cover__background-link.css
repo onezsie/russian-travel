@@ -9,7 +9,7 @@
     background-position: center;
     background-repeat: no-repeat;
     max-width: 1184px;
-    height: 740px;
+    min-height: 740px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -25,16 +25,16 @@
     left: 0;
     bottom: 0;
     right: 0;
-    opacity: 0;
-    transition: opacity 0.6s ease;
+    opacity: 0.3;
+    transition: opacity 0.4s ease;
 }
 
 .cover__background-link:hover:before {
-    opacity: 0.4;
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 1189px) {
     .cover__background-link {
-        height: calc(100vw / 1.6);
+        min-height: calc(100vw / 1.6);
     }
 }
