@@ -30,7 +30,8 @@
     }
 }
 
-@media screen and (max-width:640px){
+
+@media screen and (max-width:704px){
     .places__place {
         grid-template-columns: minmax(min-content,max-content);
         justify-items: center;
