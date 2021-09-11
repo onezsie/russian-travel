@@ -4,7 +4,7 @@
     display: grid;
 }
 
-@media screen and (max-width: 748px) {
+@media screen and (max-width: 768px) {
     .places {
         margin: 88px auto;
     }
