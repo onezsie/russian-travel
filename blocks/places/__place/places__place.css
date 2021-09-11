@@ -35,6 +35,7 @@
     .places__place {
         grid-template-columns: minmax(min-content,max-content);
         justify-items: center;
+        align-items: center;
         margin: 0;
         grid-template-areas: 
         "title"

@@ -5,6 +5,14 @@
     margin-bottom: 8px;
 }
 
+@media screen and (max-width: 768px){
+    .places__website {
+        max-width: 180px;
+    }
+}
+
+
+
 @media screen and (max-width:640px){
     .places__website {
         align-self: start;
