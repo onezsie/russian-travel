@@ -3,6 +3,7 @@
     display: grid;
     align-content: end;
     margin-bottom: 8px;
+    max-width: 456px;
 }
 
 @media screen and (max-width: 768px){
@@ -11,17 +12,24 @@
     }
 }
 
+@media screen and (max-width: 704px){
+    .places__website {
+        justify-self: center;
+    }
+}
 
 
-@media screen and (max-width:640px){
+
+/* @media screen and (max-width:640px){
     .places__website {
         align-self: start;
     }
-}
+} */
 
 @media screen and (max-width: 320px){
     .places__website {
         margin: 0 16px;
+        justify-self: start;
       width: calc(100vw - 32px);
     }
 }
