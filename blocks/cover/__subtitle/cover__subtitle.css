@@ -8,12 +8,6 @@
     max-width: 360px;
 }
 
-@media screen and (max-width: 768px) {
-    .cover__subtitle {
-        font-size: calc(100vw / 42.6);
-        line-height: calc(100vw / 43.9);
-    }
-}
 
 @media screen and (max-width:640px){
     .cover__subtitle {
