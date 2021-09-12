@@ -12,19 +12,6 @@
     }
 }
 
-@media screen and (max-width: 704px){
-    .places__website {
-        justify-self: center;
-    }
-}
-
-
-
-/* @media screen and (max-width:640px){
-    .places__website {
-        align-self: start;
-    }
-} */
 
 @media screen and (max-width: 320px){
     .places__website {

@@ -8,13 +8,6 @@
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-    .cover__title {
-        font-size: 72px;
-        line-height: 76px;
-    }
-}
-
 @media screen and (max-width:640px){
     .cover__title {
         font-size: calc(100vw / 10.0);
